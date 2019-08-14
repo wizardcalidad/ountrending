@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	html, body { 
+    margin: 0; 
+    padding: 0; 
+    text-align: justify; 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    background-color: white;
+    }
+#navbar {
+    background-color: rgb(99, 44, 44);
+    color:rgb(245, 245, 4);
+    }   
+#navbar > ul { 
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    } 
+#navbar li { 
+    list-style: none;
+    padding: 0px;
+    display: inline-block !important;
+    margin: 0px;
+    width: 100px;
+    overflow:hidden;
+    } 
+#navbar a{
+  float: right;
+} 
+#jumbo{
+    height: 500px;
+    width: 100%;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spd.jpeg');
+}
+#jumbo>h1,h2,h3 {
+    margin-top: 0%;
+    color: yellow;
+    text-shadow: 20px;
+}
+.center-it{
+    text-align: center !important;
+    display: block !important;
+}
+.move-down{
+    padding-top: 5%;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+}
+.column1 {
+	max-width: 33%;
+	float: left;
+	column-width: 33%;
+}
+.column2 {
+	max-width: 33%;
+	float: center;
+	column-width: 33%;
+}
+.column3 {
+	max-width: 33%;
+	float: right;
+	column-width: 33%;
+}
+.column4{
+  max-width: 33%;
+  float: right;
+  column-width: 33%;
+}
+.column5{
+  max-width: 33%;
+  float: right;
+  column-width: 33%;
+}
+h4,p{
+	color: rgb(7, 7, 51);
+	text-align: justify;
+}
+#row {
+	display: inline-flex !important;
+	padding-right: 6px;
+	padding-left: 10px;
+  background-image: url('img/Colorful-Smoke-Backgrounds.jpg');
+}
+footer{
+	background-color: rgb(99, 44, 44);
+ 	text-align: center;
+ 	 color: rgb(245, 245, 4);
+ 	 padding: 20px;
+ }
+ .fa {
+  padding: 5px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .form{
+  	padding: 20px;
+  	border-radius: 5px;
+    background-color: dodgerblue; 
+  }
+
+input[type=submit] {
+  background-color:rgb(7, 7, 51);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+  .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  h5{
+  	color: rgb(7, 7, 51);
+  	font-size: 16px;
+  	font-weight: bold;
+  	padding: 20px;
+  }
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.topic{
+  padding:5px;
+  margin-right: 40%;
+  margin-left: 40%;
+  background-color: yellow;
+  float: center;
+  border-radius: 45%;
+}
+label {
+  padding: 5px 5px 5px 5px;
+}
+#row2{
+  padding: 10px 900px 20px 20px;
+}
+</style>
+ </head>
+<body>
+	<div>
+	<!--container starts here-->
+<div id="navbar">
+	<!--header starts here-->
+<ul>
+    <li><img src="img/logoa.jpg" width="40px"></li>
+    <li><a>About Us</a></li>
+    <li><a>Contact Us</a></li>
+    <li><a>Reviews</a></li>
+    <li><a>Spoilers Alert</a></li>
+    <li><a>Movie Categories</a></li>
+    <li><a>Trending News</a></li>  
+</ul>
+</div> 
+<!--main content starts here-->
+<div class="content">
+<div id="jumbo">
+<h1 class="center-it move-down">OUNTRENDING TV...</h1>
+<h2 class="center-it">This is site for trending news in the entertainment world...</h2>
+<h3 class="center-it">We give reviews on the latest movies in theatre and as well give download links...</h3>
+</div>
+<br>
+<div class="topic">
+<h2 style="color:rgb(7, 7, 51);">Trending Movies of the Week</h2>
+</div>
+<!--News Content Begins-->
+<br><br>
+<div id="row">
+<div class="column1">
+	<img src="img/iia.png" alt="gladiator" width="150px">
+	<h4>The Gladiator</h4>
+	<p>The movie the movie the moive the movue  dhfjdjh sjjfmdjk najhdbh hskaahyfdrz sjisdrfbsduhgb </p>
+</div>
+<div class="column2">
+	<img src="img/download.png" alt="300movie" width="150px">
+	<h4>300 The Movie</h4>
+	<p>The movie is a hgirjn jjg nsjka awe  gjuto vjkfpo ngi tjf</p>
+</div>
+<div class="column3">
+	<img src="img/gunman.jpeg" alt="gun man" width="150px">
+	<h4>The Assasin</h4>
+	<p>the movie is all about a depressed man wwho fin dit difficuot to live trough life.</p>
+</div>
+<div class="column4">
+  <img src="img/grt.jpeg" alt="great man" width="150px">
+  <h4>Great men</h4>
+  <p>the movie is all about a great man wwho findeth love in th epit ofdj dnhd dit difficuot to live trough life.</p>
+</div>
+<div class="column5">
+  <img src="img/breakfast.jpg" alt="ountrending logo" width="150px">
+  <h4>Motivated</h4>
+  <p>the movie is all about a  man motivated man wwho seeketh love but found hatred in the saline  in th epit ofdj dnhd dit difficuot to live trough life.</p>
+</div>
+</div>
+<br>
+<hr>
+<div id="row2">
+  <div id="column6">
+<h5 class="topic" style="float:left">Search for popular movie reviews</h5>
+<div class="form">
+<form action="/action_page.php">
+	<div class="col-25">
+      <label for="movie category">Movie Category:</label>
+    </div>
+    <div class="col-75">
+      <select id="categories" name="categories">
+        <option value="action">Action</option>
+        <option value="romance">Romance</option>
+        <option value="Horror">Horror</option>
+        <option value="thriller">Thriller</option>
+        <option value="comedy">Comedy</option>
+      </select>
+    </div>
+<div class="col-25">
+      <label for="genres">Year:</label>
+    </div>
+    <div class="col-75">
+      <select id="year" name="year">
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+      </select>
+    </div>
+    <div class="col-25">
+      <label for="industry">Movie Industry:</label>
+    </div>
+    <div class="col-75">
+      <select id="industry" name="movie industry">
+        <option value="Nollywood">Nollywood</option>
+        <option value="Kollywood">Kollywood</option>
+        <option value="Bollywood">Bollywood</option>
+        <option value="Hollywood">Hollywood</option>
+        <option value="Ghallywood">Ghallywood</option>
+      </select>
+    </div>
+    <div class="row">
+  <input type="submit" value="Submit">
+  </div>
+</form>
+</div>
+</div>
+
+
+
+</div>
+<img style="float:center" src="img/logob.jpg" width="100px">
+
+<!--footer begins here-->
+<footer>
+	<p2>Powered by Ountrending TV. All right reserved.|2019</p2> <br>
+	<a href="www.facebook.com/multiintrinsic" class="fa fa-facebook"></a>
+<a href="www.twitter.com/wizardcalidad01" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-pinterest"></a>
+<a href="#" class="fa fa-snapchat-ghost"></a>
+</footer>
+<!--footer ends here-->
+
+<!--content ends here-->
+</div>
+</body>
+
+</html>

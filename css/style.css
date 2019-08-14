@@ -1,0 +1,51 @@
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    text-align: justify; 
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    background-color: white;
+    }
+#navbar {
+    background-color: rgb(99, 44, 44);
+    color:rgb(245, 245, 4);
+    }   
+#navbar>ul { 
+    list-style: none;
+    display: inline-block !important;
+    padding: 0px;
+    margin: 0px;
+    } 
+#navbar>ul>li { 
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block !important;
+    width: 100px;
+    overflow:hidden;
+    } 
+#to-right {
+    float: right !important;
+}
+#to-left {
+    float: left !important;
+}
+#jumbo{
+    height: 500px;
+    width: 100%;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spd.jpeg');
+}
+#jumbo>h1,h2,h3 {
+    margin-top: 0%;
+    color: yellow;
+    text-shadow: 20px;
+}
+.center-it{
+    text-align: center !important;
+    display: block !important;
+}
+.move-down{
+    padding-top: 5%;
+    font-size: 45px;
+    font-family: 'Teko', sans-serif;
+}
